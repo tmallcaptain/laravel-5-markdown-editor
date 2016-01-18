@@ -9,7 +9,10 @@
     ],
     "license": "MIT",
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*"
+    },
     "autoload": {
       "psr-4": {
         "YuanChao\\Editor\\":"src/"
